@@ -38,6 +38,6 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Lazy loading of images, 200px before they are seen
 $(".portfolio-item img").unveil(200);
-$("a[data-toggle='modal'").click(function () {
-    $($(this).attr('href')).find("img").trigger("unveil");
-});
+// $("a[data-toggle='modal'").click(function () {
+//     $($(this).attr('href')).find("img").trigger("unveil");
+// });

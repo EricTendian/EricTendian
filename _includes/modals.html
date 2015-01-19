@@ -27,7 +27,7 @@
                                 <div class="carousel-inner" role="listbox">
                                     {% for item in post.images %}
                                     <div class="item{% if forloop.index == 1 %} active{% endif %}">
-                                        <img src="img/placeholder.gif" data-src="img/portfolio/{{ item.img }}" alt="{{ item.caption }}" class="img-responsive img-centered">
+                                        <img src="img/portfolio/{{ item.img }}" alt="{{ item.caption }}" class="img-responsive img-centered">
                                         <div class="carousel-caption">
                                             {{ item.caption }}
                                         </div>
