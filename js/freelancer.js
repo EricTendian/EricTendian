@@ -36,12 +36,12 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-// Lazy loading of images, 200px before they are seen
+// Lazy loading of images
 $(".portfolio-item img").unveil(200);
-$('div.modal').on('show', function(e){
-    var carousel = $(this).find('.carousel').hide();
+$('a.portfolio-link').on('click', function(e) {
+    var carousel = $($(this).attr('href')).find('.carousel').hide();
     var deferreds = [];
-    var imgs = $('.carousel', this).find('img');
+    var imgs = $('.carousel', $(this).attr('href')).find('img');
     // loop over each img
     imgs.each(function(){
         var self = $(this);
@@ -55,8 +55,8 @@ $('div.modal').on('show', function(e){
         }
     });
 
-    $.when.apply($, deferreds).done(function(){
-        $('#ajaxloader').hide();
+    $.when.apply($, deferreds).done(function() {
+        carousel.parent().find('.ajaxloader').hide();
         carousel.fadeIn(1000);
     });
 });

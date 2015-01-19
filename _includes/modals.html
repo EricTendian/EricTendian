@@ -15,7 +15,7 @@
                             <h2>{{ post.project }}</h2>
                             <h4>Completed {{ post.project-date }} <a href="{{ post.project-url }}" target="_blank" title="Visit website"><i class="fa fa-arrow-circle-right"></i></a></h4>
                             <hr class="star-primary">
-                            <div id="ajaxloader">
+                            <div id="ajaxloader-{{ post.modal-id }}" class="ajaxloader">
                                 <h4>Loading images, please wait...</h4>
                                 <img src="img/ajax-loader.gif"></img>
                             </div>
