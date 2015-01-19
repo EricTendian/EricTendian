@@ -38,6 +38,25 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Lazy loading of images, 200px before they are seen
 $(".portfolio-item img").unveil(200);
-// $("a[data-toggle='modal'").click(function () {
-//     $($(this).attr('href')).find("img").trigger("unveil");
-// });
+$('div.modal').on('show', function(e){
+    var carousel = $(this).find('.carousel').hide();
+    var deferreds = [];
+    var imgs = $('.carousel', this).find('img');
+    // loop over each img
+    imgs.each(function(){
+        var self = $(this);
+        var datasrc = self.attr('data-src');
+        if (datasrc) {
+            var d = $.Deferred();
+            self.one('load', d.resolve)
+                .attr("src", datasrc)
+                .attr('data-src', '');
+            deferreds.push(d.promise());
+        }
+    });
+
+    $.when.apply($, deferreds).done(function(){
+        $('#ajaxloader').hide();
+        carousel.fadeIn(1000);
+    });
+});

@@ -15,6 +15,10 @@
                             <h2>{{ post.project }}</h2>
                             <h4>Completed {{ post.project-date }} <a href="{{ post.project-url }}" target="_blank" title="Visit website"><i class="fa fa-arrow-circle-right"></i></a></h4>
                             <hr class="star-primary">
+                            <div id="ajaxloader">
+                                <h4>Loading images, please wait...</h4>
+                                <img src="img/ajax-loader.gif"></img>
+                            </div>
                             <div id="portfolioCarousel-{{ post.modal-id }}" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
@@ -27,7 +31,8 @@
                                 <div class="carousel-inner" role="listbox">
                                     {% for item in post.images %}
                                     <div class="item{% if forloop.index == 1 %} active{% endif %}">
-                                        <img src="img/portfolio/{{ item.img }}" alt="{{ item.caption }}" class="img-responsive img-centered">
+                                        <img data-src="img/portfolio/{{ item.img }}" alt="{{ item.caption }}" class="img-responsive img-centered lazy-loaded">
+                                        <noscript><img src="img/portfolio/{{ item.img }}" alt="{{ item.caption }}" class="img-responsive img-centered"></noscript>
                                         <div class="carousel-caption">
                                             {{ item.caption }}
                                         </div>
