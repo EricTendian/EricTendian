@@ -1,0 +1,44 @@
+# Site settings
+title: Eric Tendian
+email: eric@tendian.io
+url: https://tendian.io
+description: "Eric Tendian is a student entrepreneur utilizing technology to improve education for fellow college students. Currently CEO and co-founder of Clarify. Previously founder of CrimeIsDown.com, YSFlight Headquarters, Tendian.io. Majoring in ITM at IIT."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 2C3E50 #80B3FF
+  secondary: 3498DB #FD6E8A
+  secondary-dark: 2980B9 #A2122F
+
+# Footer settings
+footer:
+  copyright: Eric Tendian
+  location: My Office
+  social: Around the Web
+  credits: You Should Know
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/erictendian
+  - title: twitter
+    url: https://twitter.com/EricTendian
+  - title: facebook
+    url: https://www.facebook.com/BinarySentinel
+  - title: github
+    url: https://github.com/EricTendian
+  - title: lastfm
+    url: http://www.last.fm/user/erict15
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 330 North Wabash Ave.
+  - line: Suite 2500 c/o Packback
+  - line: Chicago, IL 60611
+
+# Credits content
+credits: 'I occasionally write on my blog, you can check it out at <a href="https://eric.tendian.io/">eric.tendian.io</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
