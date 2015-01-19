@@ -35,3 +35,6 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Lazy loading of images, 200px before they are seen
+$("img").unveil(200);
