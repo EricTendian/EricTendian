@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://dev.iit.io/tendian.io-contact_me.php",
+                url: "http://dev.tendian.io/tendian.io-contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
