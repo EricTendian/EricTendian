@@ -4,12 +4,24 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Eric Tendian, Co-founder of [Clarify](https://weclarify.com/), is a student
+entrepreneur with a passion for using technology to transform education and
+solve other social problems. With a strong technology knowledgebase and the
+experience from working at multiple early-stage organizations, he creates
+technology solutions which solve problems efficiently and result in long-term
+success. He is excited to take on challenges and work under pressure, while
+being very attentive to detail. Graduating from the Illinois Institute of
+Technology with a Bachelor's degree in Information Technology and Management
+in 2017.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Previous to Clarify, he has worked with various [nonprofits](http://jokes4miles.com/)
+and [student](http://mypages.iit.edu/~commuter/) [organizations](http://ieeeiit.me/),
+increasing membership/users through online marketing combined with a strong product.
+He has skills in online community building and IT consulting from work on the
+founding team of [YSFlight Headquarters](https://ysfhq.com/) and as an independent
+web solutions consultant for Tendian.io, his IT consulting firm.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+*Specialties: Full-Stack Web Development, Cybersecurity, Radios, Engineering
+Management (small teams)*
+
+*Seeking: Mentors, investors, partners, other interesting people*
