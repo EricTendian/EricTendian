@@ -19,8 +19,8 @@ google_analytics: UA-30674963-4
 # Author settings
 author:
   name      : Eric Tendian
-  job       : Full-Stack Web Developer
-  bio       : "Fearlessly & relentlessly curious. Full-stack developer at Packback. Student at Illinois Tech. Nothing is impossible."
+  job       : "Full-Stack Web&nbsp;Developer"
+  bio       : "Fearlessly &amp; relentlessly curious. Software engineer at <a href='https://packbackbooks.com/' target='_blank'>Packback</a>. Student at <a href='https://web.iit.edu/' target='_blank'>Illinois Tech</a>. Nothing is impossible."
   thumb     : /images/author.png
   email     : eric@tendian.io
   url       : https://tendian.io
