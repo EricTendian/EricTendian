@@ -1,44 +1,38 @@
-# Site settings
-title: Eric Tendian
-email: eric@tendian.io
-url: https://tendian.io
-description: "Eric Tendian is a student entrepreneur utilizing technology to improve education for fellow college students. Currently CEO and co-founder of Clarify. Previously founder of CrimeIsDown.com, YSFlight Headquarters, Tendian.io. Majoring in ITM at IIT."
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 2C3E50 #80B3FF
-  secondary: 3498DB #FD6E8A
-  secondary-dark: 2980B9 #A2122F
-
-# Footer settings
-footer:
-  copyright: Eric Tendian
-  location: My Office
-  social: Around the Web
-  credits: You Should Know
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/erictendian
-  - title: twitter
-    url: https://twitter.com/EricTendian
-  - title: facebook
-    url: https://www.facebook.com/BinarySentinel
-  - title: github
-    url: https://github.com/EricTendian
-  - title: lastfm
-    url: http://www.last.fm/user/erict15
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 330 North Wabash Ave.
-  - line: Suite 2500 c/o Packback
-  - line: Chicago, IL 60611
-
-# Credits content
-credits: 'I occasionally write on my blog, you can check it out at <a href="https://eric.tendian.io/">eric.tendian.io</a>.'
-
 # Build settings
-markdown: kramdown
-permalink: pretty
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Eric Tendian
+description: "Eric Tendian is a student entrepreneur utilizing technology to improve education for fellow college students. Currently co-founder of Clarify and software engineer at Packback. Majoring in ITM at IIT."
+url: https://tendian.io
+baseurl: ""
+
+google_analytics: UA-30674963-4
+
+# Author settings
+author:
+  name      : Eric Tendian
+  job       : "Full-Stack Web&nbsp;Developer"
+  bio       : "Fearlessly &amp; relentlessly curious. Software engineer at <a href='https://packbackbooks.com/' target='_blank'>Packback</a>. Student at <a href='https://web.iit.edu/' target='_blank'>Illinois Tech</a>. Nothing is impossible."
+  thumb     : /images/author.png
+  email     : eric@tendian.io
+  url       : https://tendian.io
+  blogurl   : "https://eric.tendian.io"
+  github    : https://github.com/EricTendian
+  twitter   : https://twitter.com/EricTendian
+  facebook  : https://facebook.com/BinarySentinel
+  linkedin  : https://linkedin.com/in/erictendian
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+#  - slug: resume
+#    title: Resume
