@@ -10,7 +10,7 @@ sass:
 
 # SEO settings
 title: Eric Tendian
-description: "Eric Tendian is a Senior Site Reliability Engineer at Packback, is a full-stack engineer and entrepreneur with a passion for using technology to transform education. Also reports Chicago breaking news."
+description: "Eric Tendian is a Principal Engineer at Packback, is a full-stack engineer and entrepreneur with a passion for using technology to transform education. Also reports Chicago breaking news on Twitter."
 url: https://tendian.io
 baseurl: ""
 
@@ -20,7 +20,7 @@ google_analytics: UA-30674963-4
 author:
   name      : Eric Tendian
   job       : "Full-Stack Engineer"
-  bio       : "Fearlessly &amp; relentlessly curious. Senior Site Reliability Engineer at <a href='https://www.packback.co/' target='_blank'>Packback</a>. Alum of <a href='https://web.iit.edu/' target='_blank'>Illinois Tech</a>. Nothing is impossible."
+  bio       : "Fearlessly &amp; relentlessly curious. Principal Engineer at <a href='https://www.packback.co/' target='_blank'>Packback</a>. Founder of <a href='https://crimeisdown.com/' target='_blank'>CrimeIsDown.com</a>. Nothing is impossible."
   thumb     : /images/author.png
   email     : eric@tendian.io
   url       : https://tendian.io
