@@ -10,7 +10,7 @@ sass:
 
 # SEO settings
 title: Eric Tendian
-description: "Eric Tendian is a Principal Engineer at Packback, is a full-stack engineer and entrepreneur with a passion for using technology to transform education. Also reports Chicago breaking news on Twitter."
+description: "Eric Tendian is the founder of CrimeIsDown.com and a Senior Staff Software Engineer at WP Engine."
 url: https://tendian.io
 baseurl: ""
 
@@ -20,7 +20,7 @@ google_analytics: UA-30674963-4
 author:
   name      : Eric Tendian
   job       : "Full-Stack Engineer"
-  bio       : "Fearlessly &amp; relentlessly curious. Principal Engineer at <a href='https://www.packback.co/' target='_blank'>Packback</a>. Founder of <a href='https://crimeisdown.com/' target='_blank'>CrimeIsDown.com</a>. Nothing is impossible."
+  bio       : "Fearlessly &amp; relentlessly curious. Senior Staff Software Engineer (Infrastructure) at <a href='https://wpengine.com/' target='_blank'>WP Engine</a>. Founder of <a href='https://crimeisdown.com/' target='_blank'>CrimeIsDown.com</a>. Nothing is impossible."
   thumb     : /images/author.png
   email     : eric@tendian.io
   url       : https://tendian.io
