@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Eric R. Tendian, Principal Engineer at [Packback](https://packback.co/) and Co-founder of [Clarify](https://weclarify.com/), is a full-stack engineer and entrepreneur with a passion for using technology to transform education and solve other social problems. With a strong technology knowledgebase and the experience from working at multiple early-stage organizations, he creates technology solutions which solve problems efficiently and result in long-term success. He is excited to take on challenges and work under pressure, while being very attentive to detail.
+### Hello! 👋
 
-Previous to Packback and Clarify, he has worked with various [nonprofits](http://jokes4miles.com/) and [student](http://mypages.iit.edu/~commuter/) [organizations](http://ieeeiit.me/), increasing membership/users through online marketing combined with a strong product. Most notably, while on the founding team of [YSFlight Headquarters](https://ysfhq.com/) (a flight sim community) he grew the community from tens of users to over a thousand and continued to upgrade and revise the technology as those users needs grew and changed. In high school, he founded an IT consulting firm which overhauled multiple businesses' technology suites, as well as building a course registration system for his high school among other projects.
+I’m Eric from Chicago. I’m a curious engineer that enjoys solving the hardest problems and making a big impact.
+I try to seek out simple and elegant solutions whenever possible and love making things more efficient. I’ve been fascinated with how
+things work ever since I could hold a screwdriver, and aren’t afraid to get my hands dirty digging thru source code of some obscure
+open source project while finding the root cause of a bug that only can be reproduced on Tuesdays under a full moon while doing
+a handstand.
 
-On the side, Eric reports Chicago breaking news as heard on the police scanner via Twitter [@EricTendian](https://twitter.com/EricTendian) and maintains the police scanner tools website [CrimeIsDown.com](https://crimeisdown.com).
-
-*Specialties: Full-Stack Web Development, Site Reliability Engineering, Cybersecurity, Radios*
-
-*Seeking: Mentors, investors, partners*
+I currently work at [WP Engine](https://wpengine.com/) as a Senior Staff Software Engineer on the Infrastructure Engineering team. Previously I worked at [Packback](https://www.packback.co/), an EdTech startup where I joined as engineer #2 and built and scaled their product. On the side I maintain a police scanner site
+called [CrimeIsDown.com](https://crimeisdown.com/) whose code is available [@CrimeIsDown](https://github.com/CrimeIsDown).
+I get to do some cool stuff with software-defined radios there.
