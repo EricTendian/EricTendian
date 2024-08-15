@@ -4,7 +4,6 @@ import type {
   Identity,
   AboutPageContent,
   ProjectPageContent,
-  BlogPageContent,
   HomePageContent,
 } from "./types/config";
 
@@ -237,14 +236,4 @@ export const projectsPageContent: ProjectPageContent = {
       url: "https://ysfhq.com/",
     },
   ],
-};
-
-// Blog (/blog)
-export const blogPageContent: BlogPageContent = {
-  seo: {
-    title: "Blog | Eric Tendian",
-    description: "Thoughts, stories and ideas.",
-    image: identity.logo,
-  },
-  subtitle: "Thoughts, stories and ideas.",
 };
