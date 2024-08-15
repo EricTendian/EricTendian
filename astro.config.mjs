@@ -7,7 +7,6 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
   site: "https://erictendian.github.io",
-  base: "/EricTendian",
   integrations: [tailwind(), icon()],
   output: "static",
   adapter: node({
